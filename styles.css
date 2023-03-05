@@ -1,0 +1,13 @@
+body{
+    background-color: #000000;
+}
+.copyright-sec{
+    color:gray;
+    background-color: rgba(9, 9, 19, 0.74);
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-sec span{
+    color:rgba(170, 14, 14, 0.795);
+    font-weight: bold;
+}
