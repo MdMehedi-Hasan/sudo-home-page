@@ -1,6 +1,10 @@
 body{
     background-color: #000000;
 }
+.avatar{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
 .copyright-sec{
     color:gray;
     background-color: rgba(9, 9, 19, 0.74);
