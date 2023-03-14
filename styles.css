@@ -1,5 +1,19 @@
 body{
-    background-color: #000000;
+    background-color: #13181E;
+    color: white;
+}
+.tournament-sec{
+    background-color: #13181E;
+}
+.tournament-sec h6{
+    color:#A23E0E;
+    text-align: center;
+}
+.tournament-sec h1 span{
+    color:#A23E0E;
+}
+.line{
+    margin: auto;
 }
 .avatar{
     display: grid;
