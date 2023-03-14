@@ -18,12 +18,22 @@ body{
 .tournament-sec h1 span{
     color:#FE5900;
 }
-.games-sec{
-    background-color: #1B1E28;
-}
 .avatar{
     display: grid;
     grid-template-columns: repeat(8,1fr);
+}
+.games-sec{
+    background-color: #1B1E28;
+}
+.play-sec img{
+    opacity: 0.9;
+}
+.play-btn{
+    font-size: 5vw;
+    top:40%;
+}
+.play-btn:hover{
+    cursor: pointer;
 }
 .bgc-shop{
     background-color: #151A20;
