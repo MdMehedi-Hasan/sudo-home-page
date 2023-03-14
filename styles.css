@@ -3,29 +3,63 @@ body{
     color: white;
 }
 .tournament-sec{
-    background-color: #13181E;
+    background-color: #151A1F;
 }
 .tournament-sec h6{
-    color:#A23E0E;
+    color:#FE5900;
     text-align: center;
 }
-.tournament-sec h1 span{
-    color:#A23E0E;
+.tournament-sec h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
 }
-.line{
-    margin: auto;
+.tournament-sec h1 span{
+    color:#FE5900;
+}
+.games-sec{
+    background-color: #1B1E28;
 }
 .avatar{
     display: grid;
     grid-template-columns: repeat(8,1fr);
 }
+.bgc-shop{
+    background-color: #151A20;
+}
+.bgc-dark{
+    background-color: #111416;
+}
+.top-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.top-footer .line{
+    border-bottom: 2px solid rgba(254, 89, 0, 1);
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    width: 50px;
+}
+.footer-logo p{
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.footer-logo p span{
+    color:#FE5900;
+}
 .copyright-sec{
     color:gray;
-    background-color: rgba(9, 9, 19, 0.74);
+    background-color: #151A20;
     display: flex;
     justify-content: space-between;
 }
 .copyright-sec span{
-    color:rgba(170, 14, 14, 0.795);
+    color:#FE5900;
     font-weight: bold;
 }
