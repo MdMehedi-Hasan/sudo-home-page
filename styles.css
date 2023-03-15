@@ -25,12 +25,35 @@ body{
 .games-sec{
     background-color: #1B1E28;
 }
+.game-slider{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:25px;
+}
+.bar{
+    height: 8px;
+    width: 100%;
+    background-image: linear-gradient(to right,#FE5900 50%,#232931 50%);
+}
+.navigate{
+    gap: 10px;
+    font-size:30px;
+}
+.sliders h5{
+    flex:auto
+}
+.sliders p{
+    flex: 0 1 auto;
+}
 .play-sec img{
     opacity: 0.9;
 }
 .play-btn{
     font-size: 5vw;
     top:40%;
+    bottom: 60%;
+    left: 50%;
+    right: 50%;
 }
 .play-btn:hover{
     cursor: pointer;
