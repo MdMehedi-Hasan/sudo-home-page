@@ -26,12 +26,25 @@ body{
     background-color: #1B1E28;
 }
 .more-btn{
-        border-bottom: 100px solid red;
+        /* border-bottom: 100px solid red;
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         height: 0;
         width: 100px;
-        background-color: transparent;
+        background-color: transparent; */
+        height: 47px;
+        width: 200px;
+        clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 13% 100%);
+        background-color: #FE5900;
+        color: white;
+        border-radius: 0px;
+}
+.more-btn:hover{
+        height: 47px;
+        width: 200px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        background-color: #FE5900;
+        color: white;
 }
 .game-slider{
     display: grid;
