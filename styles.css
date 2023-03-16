@@ -4,6 +4,13 @@ body{
 }
 .tournament-sec{
     background-color: #151A1F;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .tournament-sec h6{
     color:#FE5900;
@@ -21,9 +28,29 @@ body{
 .avatar{
     display: grid;
     grid-template-columns: repeat(8,1fr);
+    gap: 30px 0px;
+}
+.avatar img{
+    width: 9vw;
 }
 .games-sec{
     background-color: #1B1E28;
+    height: 90vh;
+    min-height: 500px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.games-sec img{
+    width: 20vw;
+}
+.games-sec .guys{
+    color: #FE5900;
+}
+.fa-angle-left{
+    color: #FE5900;
 }
 .more-btn{
         /* border-bottom: 100px solid red;
@@ -82,21 +109,35 @@ body{
 }
 .bgc-shop{
     background-color: #151A20;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
 }
-.bgc-dark{
-    background-color: #111416;
+.bgc-shop h6{
+    color: #FE5900;
+}
+.shop-card-group{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
 }
 .bgc-shop .card{
     background-color: #0C0F13;
-    width: 296px;
-    height: 296px;
+    min-width: 200px;
+    min-height: 200px;
+    width: 250px;
+    height: 250px;
+    max-width: 296px;
+    max-height: 296px;
     padding: 50px;
     display: flex;
     justify-items: center;
     align-items: center;
 }
 .bgc-shop .card img{
-    width: 70%;
+    width: 10vw;
 }
 /* .sales-badge{
     position: absolute;
@@ -143,7 +184,7 @@ body{
     color: #D84E08;
     font-weight: 700;
 }
-.test{
+/* .test{
     display: inline-block;
     position: relative;
     padding:15px;
@@ -158,10 +199,17 @@ body{
         border-style:solid;
         border-width:2px;
         transform: skewX(-15deg);
+} */
+.bgc-dark{
+    background-color: #111416;
+    height: 400px;
+    display: flex;
+    align-items: center;
 }
 .top-footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 0px 40px;
 }
 .top-footer .line{
     border-bottom: 2px solid rgba(254, 89, 0, 1);
@@ -202,6 +250,10 @@ body{
     background-color: transparent;
     padding: 5px;
     color: white;
+    width: -webkit-fill-available;
+}
+.mail-input :nth-child(1):focus{
+    outline: 0;
 }
 .mail-input :nth-child(2){
     border: 0px;
