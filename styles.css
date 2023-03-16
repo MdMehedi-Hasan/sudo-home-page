@@ -132,10 +132,10 @@ body{
 }
 .bgc-shop .card{
     background-color: #0C0F13;
-    min-width: 200px;
-    min-height: 200px;
-    width: 250px;
-    height: 250px;
+    min-width: 150px;
+    min-height: 150px;
+    width: 20vw;
+    height: 20vw;
     max-width: 296px;
     max-height: 296px;
     padding: 50px;
@@ -144,7 +144,8 @@ body{
     align-items: center;
 }
 .bgc-shop .card img{
-    width: 10vw;
+    width: 8vw;
+    max-width:130px ;
 }
 .sales-badge{
     height: 50px;
@@ -295,6 +296,8 @@ body{
     .shop-card-group .card{
         width: 100vw;
         max-width: 95vw;
+        height: 50vh;
+        max-height: fit-content;
         gap:20px 0px;
     }
     .shop-card-group .card img{
