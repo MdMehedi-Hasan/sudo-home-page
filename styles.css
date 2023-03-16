@@ -55,7 +55,7 @@ body{
 .bar{
     height: 8px;
     width: 100%;
-    background-image: linear-gradient(to right,#FE5900 50%,#232931 50%);
+    background-image: linear-gradient(to right,#FE5900 13%,#232931 0%);
 }
 .navigate{
     gap: 10px;
@@ -128,7 +128,7 @@ body{
 }
 .sales-badge-child{
     width: 95%;
-    height: 100%;
+    height: 101%;
     background-color: #1A1F25;
     position: absolute;
     bottom: 0;
@@ -180,6 +180,32 @@ body{
 }
 .footer-logo p span{
     color:#FE5900;
+}
+.contact :nth-child(1){
+    color: #FE5900;
+}
+.contact :nth-child(2){
+    color: #FE5900;
+}
+.subscribe :nth-child(1){
+    color: #FE5900;
+}
+.mail-input{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #151A20;
+    display: flex;
+    justify-content: space-between;
+}
+.mail-input :nth-child(1){
+    border: 0px;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+}
+.mail-input :nth-child(2){
+    border: 0px;
+    background-color: #FE5900;
 }
 .copyright-sec{
     color:gray;
