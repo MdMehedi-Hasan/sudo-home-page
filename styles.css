@@ -43,6 +43,9 @@ body{
     align-items: center;
 
 }
+.games-sec h3{
+    font-weight: 800;
+}
 .games-sec img{
     width: 20vw;
 }
@@ -78,6 +81,16 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:25px;
+}
+.game-slider h5{
+    font-weight: 700;
+    color:white;
+}
+.game-slider p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #939393;
+    margin-top: 20px;
 }
 .bar{
     height: 8px;
@@ -139,23 +152,6 @@ body{
 .bgc-shop .card img{
     width: 10vw;
 }
-/* .sales-badge{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-bottom: 50px solid #1A1F25;
-	border-left: 12px solid transparent;
-	height: 37px;
-	width: 139px;
-}
-.sales-badge p{
-    margin-bottom: 0px;
-    color:#D84E08;
-    position: absolute;
-    bottom: -35px;
-    right: 32%;
-    font-weight: 700;
-} */
 .sales-badge{
     height: 50px;
     width: 40%;
@@ -184,27 +180,15 @@ body{
     color: #D84E08;
     font-weight: 700;
 }
-/* .test{
-    display: inline-block;
-    position: relative;
-    padding:15px;
-    margin:20px;
-}
-.test::before{
-    content: '';
-        position:absolute;
-        width:100%;
-        height:100%;
-        border-color: transparent transparent transparent red;
-        border-style:solid;
-        border-width:2px;
-        transform: skewX(-15deg);
-} */
 .bgc-dark{
     background-color: #111416;
     height: 400px;
     display: flex;
     align-items: center;
+}
+.bgc-dark p{
+    color: #aeaeae;
+    font-weight: 600;
 }
 .top-footer{
     display: grid;
@@ -213,6 +197,7 @@ body{
 }
 .top-footer .line{
     border-bottom: 2px solid rgba(254, 89, 0, 1);
+    padding-bottom: 10px;
 }
 .footer-logo{
     display: flex;
@@ -234,6 +219,10 @@ body{
 }
 .contact :nth-child(2){
     color: #FE5900;
+}
+.social{
+    display: flex;
+    gap:0px 25px;
 }
 .subscribe :nth-child(1){
     color: #FE5900;
