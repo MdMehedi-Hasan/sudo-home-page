@@ -38,6 +38,7 @@ body{
         background-color: #FE5900;
         color: white;
         border-radius: 0px;
+        transition: 0.4s;
 }
 .more-btn:hover{
         height: 47px;
