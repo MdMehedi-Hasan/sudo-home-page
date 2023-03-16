@@ -324,6 +324,41 @@ body{
 
 /* Tablet Version */
 @media screen and (min-width: 689px) and (max-width:992px) {
+    .nutshell{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .nutshell h3{
+        display: inline-block;
+    }
+    .games-sec :nth-child(1){
+        flex-direction: column;
+    }
+    .games-sec img{
+        width: 25vw;
+    }
+    .bgc-shop{
+        height: fit-content;
+        max-height: fit-content;
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    .shop-card-group{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .bgc-dark{
+        max-height: fit-content;
+        height: fit-content;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .top-footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
     
 }
 /* Desktop Version */
